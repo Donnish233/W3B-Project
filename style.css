@@ -1,0 +1,115 @@
+/* Main Styles*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: hsl(227, 75%, 14%);
+    border-radius: 20px;
+}
+body{
+    background-color: hsl(217, 61%, 90%);
+    padding: 5px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    height: 4rem;
+    border-radius: 20px;
+    padding: 1rem;
+    width: 100%;
+}
+#theme-selector{
+    border-radius: 5px;
+    background-color: hsl(0, 0%, 78%);
+}
+#moon{
+    position: relative;
+    top: 5px
+}
+#title{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 1em 0;
+}
+h1{
+    color: hsl(227, 75%, 14%);
+}
+#holder{
+    width: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5px;
+    margin: 1em 0;
+}
+main{
+    width: 100%;
+    display: grid;
+    gap: 4px;
+    grid-template-columns:  auto;
+}
+button{
+    border: 1px solid hsl(217, 61%, 90%);
+    height: 3em;
+    width: fit-content;
+    padding: 0.5em 1.5em;
+    &:hover{
+        cursor: pointer;
+    }
+}
+.card{
+    width: 100%;
+    aspect-ratio: 7/4;
+    padding: 1rem;
+    background-color: white;
+    border: 1px solid black;
+    margin: auto;
+}
+.details{
+    display: flex;
+    justify-content: start;
+    gap: 1em;
+}
+p{
+    width: 210px;
+    padding: 0 5px 0 0;
+}
+/* Media Responsiveness */
+@media only screen and (min-width: 520px) and (max-width: 780px){
+    #title{
+    flex-direction: column;
+    }
+
+}
+@media only screen and (min-width: 800px){
+    body{
+        padding: 1em 2em;
+    }
+    main{
+        grid-template-columns: auto auto;
+        gap: 1em;
+    }  
+    #title{
+        justify-content: space-between;
+    }
+    .card{
+        width: 360px;
+    }
+    p{
+        width: 250px;
+    }
+}
+@media only screen and (min-width: 1100px) {
+    header{
+        width: 100%;
+    }
+    main{
+        grid-template-columns: auto auto auto;
+        gap: 0.5em;
+    }
+}
+/*Light and Dark modes*/
+/* Transitions/ App functionality */
