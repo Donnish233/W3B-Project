@@ -1,13 +1,18 @@
+
 const express = require("express");
+const path = require("path");
 const app = express();
 
-// Serve static files from the current directory
-app.use(express.static(".")); // This will allow it to serve index.html and other files
+// Serve static files from the root directory
+app.use(express.static(__dirname));
+app.use(express.json());
 
+// Serve index.html for the root route
 app.get("/", (req, res) => {
-  res.sendFile(__dirname + "/index.html"); // Ensure index.html is served on the root route
+  res.sendFile(path.join(__dirname, "index.html"));
 });
 
+// Start server
 app.listen(5000, "0.0.0.0", () => {
-  console.log("Server is running on port 5000");
+  console.log("Server running at http://0.0.0.0:5000");
 });
