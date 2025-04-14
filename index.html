@@ -27,28 +27,18 @@
   </head>
   <body>
     <header class="head">
-      <img
-        src="assets/images/logo.svg"
-        alt=""
-      />
-      <div id="theme-selector">
-        <img
-          src="assets/images/icon-moon.svg"
-          alt=""
-          id="moon"
-        />
-        <img
-          src="assets/images/icon-sun.svg"
-          alt=""
-        />
-      </div>
+      <img src="assets/images/logo.svg" alt="" />
+      <section id="theme-selector">
+        <img src="assets/images/icon-moon.svg" alt="" id="moon" />
+        <img src="assets/images/icon-sun.svg" alt="" id="sun"/>
+      </section>
     </header>
     <div id="title">
-      <h1>Extensions List</h1>
+      <h1 class="font">Extensions List</h1>
       <div id="holder">
-        <button>All</button>
-        <button>Active</button>
-        <button>Inactive</button>
+        <button class="filter all">All</button>
+        <button class="filter active">Active</button>
+        <button class="filter inactive">Inactive</button>
       </div>
     </div>
 
@@ -56,230 +46,216 @@
     <main>
       <article class="card">
         <div class="details">
-          <img
-            src="assets/images/logo-devlens.svg"
-            alt=""
-            srcset=""
-          />
+          <img src="assets/images/logo-devlens.svg" alt="" srcset="" />
           <div>
-            <h3>DevLens</h3>
+            <h3 class="font">DevLens</h3>
             <p>
               Quickly inspect page layouts and visualize element boundaries.
             </p>
           </div>
         </div>
         <div class="button-holder">
-        <button>Remove</button>
+        <button class="remove font">Remove</button>
         <!-- Rounded switch -->
-<label class="switch">
-  <input type="checkbox">
-  <span class="slider round"></span>
-</label>
-</div>
+         <label class="switch">
+            <input type="checkbox">
+            <span class="slider round"></span>
+          </label>
+        </div>
       </article>
       <article class="card">
         <div class="details">
-        <img
-          src="assets/images/logo-style-spy.svg"
-          alt=""
-          srcset=""
-        />
-        <div>
-        <h3>StyleSpy</h3>
-        <p>Instantly analyze and copy CSS from any webpage element.</p>
-        </div>
+          <img src="assets/images/logo-style-spy.svg" alt="" srcset="" />
+          <div>
+            <h3 class="font">StyleSpy</h3>
+            <p>Instantly analyze and copy CSS from any webpage element.</p>
+          </div>
         </div>
         <div class="button-holder">
-        <button>Remove</button>
-        <!-- Rounded switch -->
-<label class="switch">
-  <input type="checkbox">
-  <span class="slider round"></span>
-</label>
-</div>
+          <button class="remove font">Remove</button>
+          <!-- Rounded switch -->
+           <label class="switch">
+            <input type="checkbox">
+            <span class="slider round"></span>
+          </label>
+        </div>
       </article>
       <article class="card">
         <div class="details">
-        <img
-          src="assets/images/logo-speed-boost.svg"
-          alt=""
-          srcset=""
-        />
+          <img src="assets/images/logo-speed-boost.svg" alt="" srcset="" />
+          <div>
+            <h3 class="font">SpeedBoost</h3>
+            <p>Optimizes browser resource usage to accelerate page loading.</p>
+          </div>
+        </div>
+        <div class="button-holder">
+          <button class="remove font">Remove</button>
+<!-- Rounded switch -->
+ <label class="switch">
+            <input type="checkbox">
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </article>
+      <article class="card">
+        <div class="details">
+          <img src="assets/images/logo-json-wizard.svg" alt="" srcset="" />
+          <div>
+            <h3 class="font">JSONWizard</h3>
+            <p>Formats, validates, and prettifies JSON responses in-browser.</p>
+          </div>
+        </div>
+        <div class="button-holder">
+          <button class="remove font">Remove</button>
+          <!-- Rounded switch -->
+           <label class="switch">
+            <input type="checkbox">
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </article>
+      <article class="card">
+        <div class="details">
+          <img src="assets/images/logo-tab-master-pro.svg" alt="" srcset="" />
+          <div>
+            <h3 class="font">TabMaster Pro</h3>
+            <p>Organizes browser tabs into groups and sessions.</p>
+          </div>
+        </div>
+        <div class="button-holder">
+          <button class="remove font">Remove</button>
+          <!-- Rounded switch -->
+          <label class="switch">
+            <input type="checkbox">
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </article>
+      <article class="card">
+        <div class="details">
+          <img src="assets/images/logo-viewport-buddy.svg" alt="" srcset="" />
+          <div>
+            <h3 class="font">ViewportBuddy</h3>
+            <p>
+              Simulates various screen resolutions directly within the browser.
+            </p>
+          </div>
+        </div>
+        <div class="button-holder">
+        <button class="remove font">Remove</button>
+        <!-- Rounded switch -->
+         <label class="switch">
+            <input type="checkbox">
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </article>
+      <article class="card">
+        <div class="details">
+          <img src="assets/images/logo-markup-notes.svg" alt="" srcset="" />
+          <div>
+            <h3 class="font">Markup Notes</h3>
+            <p>
+              Enables annotation and notes directly onto webpages for
+              collaborative debugging.
+            </p>
+          </div>
+        </div>
+        <div class="button-holder">
+          <button class="remove font">Remove</button>
+          <!-- Rounded switch -->
+           <label class="switch">
+            <input type="checkbox" >
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </article>
+      <article class="card">
+        <div class="details">
+        <img src="assets/images/logo-grid-guides.svg" alt="" srcset="" />
         <div>
-        <h3>SpeedBoost</h3>
-        <p>Optimizes browser resource usage to accelerate page loading.</p>
-          </div>
-          </div>
-        <div class="button-holder">
-        <button>Remove</button>
-
-
+        <h3 class="font">GridGuides</h3>
+        <p>Overlay customizable grids and alignment guides on any webpage.</p>
+        </div>
+      </div>
+      <div class="button-holder">
+        <button class="remove font">Remove</button>
         <!-- Rounded switch -->
-<label class="switch">
-  <input type="checkbox">
-  <span class="slider round"></span>
-</label>
-          </div>
-      </article>
-      <article class="card">
-        <div class="details">
-        <img
-          src="assets/images/logo-json-wizard.svg"
-          alt=""
-          srcset=""
-        />
-            <div>
-        <h3>JSONWizard</h3>
-        <p>Formats, validates, and prettifies JSON responses in-browser.</p>
-            </div>
-          </div>
-        <div class="button-holder">
-        <button>Remove</button>
-        <!-- Rounded switch -->
-<label class="switch">
-  <input type="checkbox">
-  <span class="slider round"></span>
-</label>
+         <label class="switch">
+            <input type="checkbox">
+            <span class="slider round"></span>
+          </label>
       </div>
       </article>
+
       <article class="card">
         <div class="details">
-        <img
-          src="assets/images/logo-tab-master-pro.svg"
-          alt=""
-          srcset=""
-        />
-            <div>
-        <h3>TabMaster Pro</h3>
-        <p>Organizes browser tabs into groups and sessions.</p>
-            </div>
-          </div>
-        <div class="button-holder">
-        <button>Remove</button>
-        <!-- Rounded switch -->
-<label class="switch">
-  <input type="checkbox">
-  <span class="slider round"></span>
-</label>
-          </div>
-      </article>
-      <article class="card">
-        <div class="details">
-        <img
-          src="assets/images/logo-viewport-buddy.svg"
-          alt=""
-          srcset=""
-        />
-          <div>
-        <h3>ViewportBuddy</h3>
-        <p>Simulates various screen resolutions directly within the browser.</p>
-            </div>
-          </div>
-        <div class="button-holder">
-            <button>Remove</button>
-        <!-- Rounded switch -->
-<label class="switch">
-  <input type="checkbox">
-  <span class="slider round"></span>
-</label>
-          </div>
-      </article>
-      <article class="card">
-        <div class="details">
-        <img
-          src="assets/images/logo-markup-notes.svg"
-          alt=""
-          srcset=""
-        />
-          <div>
-        <h3>Markup Notes</h3>
-        <p>
-          Enables annotation and notes directly onto webpages for collaborative
-          debugging.
-        </p>
-          </div>
-        </div>
-        <div class="button-holder">
-        <button>Remove</button>
-        <!-- Rounded switch -->
-<label class="switch">
-  <input type="checkbox">
-  <span class="slider round"></span>
-</label>
-        </div>
-      </article>
-      <article class="card">
-        <img
-          src="assets/images/logo-grid-guides.svg"
-          alt=""
-          srcset=""
-        />
-        <h3>GridGuides</h3>
-        <p>Overlay customizable grids and alignment guides on any webpage.</p>
-        <button>Remove</button>
-        <!-- Rounded switch -->
-<label class="switch">
-  <input type="checkbox">
-  <span class="slider round"></span>
-</label>
-      </article>
-      <article class="card">
-        <img
-          src="assets/images/logo-palette-picker.svg"
-          alt=""
-        />
-        <h3>Palette Picker</h3>
+        <img src="assets/images/logo-palette-picker.svg" alt="" />
+        <div>
+        <h3 class="font">Palette Picker</h3>
         <p>Instantly extracts color palettes from any webpage.</p>
-        <button>Remove</button>
+        </div>
+        </div>
+        <div class="button-holder">
+        <button class="remove font">Remove</button>
         <!-- Rounded switch -->
-<label class="switch">
-  <input type="checkbox">
-  <span class="slider round"></span>
-</label>
+         <label class="switch">
+            <input type="checkbox">
+            <span class="slider round"></span>
+          </label>
+        </div>
       </article>
       <article class="card">
-        <img
-          src="assets/images/logo-link-checker.svg"
-          alt=""
-          srcset=""
-        />
-        <h3>LinkChecker</h3>
+        <div class="details">
+        <img src="assets/images/logo-link-checker.svg" alt="" srcset="" />
+        <div>
+        <h3 class="font">LinkChecker</h3>
         <p>Scans and highlights broken links on any page.</p>
-        <button>Remove</button>
+        </div>
+        </div>
+        <div class="button-holder">
+        <button class="remove font">Remove</button>
         <!-- Rounded switch -->
-<label class="switch">
-  <input type="checkbox">
-  <span class="slider round"></span>
-</label>
+         <label class="switch">
+            <input type="checkbox">
+            <span class="slider round"></span>
+          </label>
+        </div>
       </article>
       <article class="card">
-        <img
-          src="assets/images/logo-dom-snapshot.svg"
-          alt=""
-          srcset=""
-        />
-        <h3>DOM Snapshot</h3>
+        <div class="details">
+        <img src="assets/images/logo-dom-snapshot.svg" alt="" srcset="" />
+        <div>
+        <h3 class="font">DOM Snapshot</h3>
         <p>Capture and export DOM structures quickly.</p>
-        <button>Remove</button>
+        </div>
+        </div>
+        <div class="button-holder">
+        <button class="remove font">Remove</button>
         <!-- Rounded switch -->
-<label class="switch">
-  <input type="checkbox">
-  <span class="slider round"></span>
-</label>
+         <label class="switch">
+            <input type="checkbox">
+            <span class="slider round"></span>
+          </label>
+        </div>
       </article>
-      <article class="card">
-        <img
-          src="assets/images/logo-console-plus.svg"
-          alt=""
-        />
-        <h3>ConsolePlus</h3>
+      <div class="card">
+        <div class="details">
+        <img src="assets/images/logo-console-plus.svg" alt="" />
+        <div>
+        <h3 class="font">ConsolePlus</h3>
         <p>Enhanced developer console with advanced filtering and logging.</p>
-        <button>Remove</button>
+        </div>
+        </div>
+        <div class="button-holder">
+        <button class="remove font">Remove</button>
         <!-- Rounded switch -->
-<label class="switch">
-  <input type="checkbox">
-  <span class="slider round"></span>
-</label>
+         <label class="switch">
+            <input type="checkbox">
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </div>
       </article>
     </main>
     <div class="attribution">
@@ -287,6 +263,6 @@
       <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
       Coded by <a href="#">Your Name Here</a>.
     </div>
-      <script src="script.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
